@@ -548,7 +548,7 @@ footer nav ul li a:hover {
   width: 90%;
   margin: 20px auto;
   border-collapse: collapse;
-  background: d9c3a1;
+  background: #d9c3a1;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
@@ -587,8 +587,4 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 20px 10px;
-
-footer .social-icons img {
-  width: 30px;
-  height: 30px;
-  transition: transform 0.3s;
+}
