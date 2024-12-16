@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Splash White Water Rafting for inquiries, support, or feedback. Reach out to us today!">
+    <meta name="author" content="Jessie Berdiguel">
+    <title>Contact Splash White Water Rafting - Get in Touch</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;700;900&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Splash White Water Rafting Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Reach out to us through the details below or use the contact form.</p>
+
+            <!-- Company Information -->
+            <div class="company-info">
+                <p><strong>Address:</strong> 143 Nevermind Street, Anywhere, USA</p>
+                <p><strong>Phone:</strong> +1 (320) 120-0000</p>
+                <p><strong>Email:</strong> <a href="Whitewater@Splash.com">Whitewater@Splash.com</a></p>
+            </div>
+
+            <!-- Google Map Embed -->
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25464266.07465666!2d-153.75216870462734!3d38.82259097617713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b056bc65e2377%3A0xf92c07d60aa23526!2sSierra%20Whitewater%20-%20American%20River%20Rafting%20near%20Sacramento!5e0!3m2!1sfil!2sph!4v1734307616338!5m2!1sfil!2sph"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+            <!-- Contact Form -->
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset><legend>Purpose of Message:</legend>
+                    <label>
+                        <input type="radio" name="purpose" value="general" required>
+                        General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="reservation" required>
+                        Reservation Question
+                    </label>
+                    <label>
+                        <input type="radio" name="purpose" value="website" required>
+                        Website Suggestion
+                    </label>
+                </fieldset>
+                
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <label>
+                <input type="checkbox" name="newsletter">
+                Please subscribe me to the monthly newsletter
+            </label>
+
+    <button type="submit" class="btn-submit">Send Message</button>
+</form>
+            <!-- Employee Images -->
+            <section class="employee-section">
+                <h3>Meet Our Team</h3>
+                <div class="employee">
+                    <img src="images/employee.jpg" alt="Employee 1">
+                    <p>Joseph McCallister - Customer Support</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <p>John Thomas - Technical Lead</p>
+                </div>
+                <div class="employee">
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <p>Liza Degaranfied - Sales Manager</p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Splash White Water Rafting | Jessie Berdiguel</p>
+        <div class="social-icons">
+            <a href="#"><img src="images/facebook_icon.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram_icon.png" alt="Instagram"></a>
+            <a href="#"><img src="images/twitter_icon.png" alt="Twitter"></a>
+    </footer>
+</body>
+</html>

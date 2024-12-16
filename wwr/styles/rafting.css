@@ -342,3 +342,129 @@ footer img {
   width: 30px;
   margin: 0 5px;
 }
+
+/* Contact Us */
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company-info {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  border: 1px solid #c9a26c;
+  border-radius: 8px;
+}
+
+.map iframe {
+  width: 100%;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #ffffff; 
+  padding: 1.5rem;
+  border: 1px solid #ccc; 
+  border-radius: 8px;
+}
+
+form label {
+  font-weight: bold;
+  color: #333; /
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+form label[for="newsletter"] {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  color: #333; 
+}
+
+form button {
+  padding: 0.75rem;
+  background-color: #c9a26c; 
+  color: #ffffff; 
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+}
+
+form button:hover {
+  background-color: #c9a26c;
+}
+
+/* Employee Section */
+.employee-section {
+  margin-top: 2rem;
+}
+
+.employee {
+  display: inline-block;
+  text-align: center;
+  margin: 1rem;
+}
+
+.employee img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.employee p {
+  font-size: 0.9rem;
+  color: #333; 
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333; 
+  color: #fff; 
+  margin-top: 2rem;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 1rem;
+  padding: 0;
+}
+
+footer nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
