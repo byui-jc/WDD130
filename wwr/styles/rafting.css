@@ -78,9 +78,7 @@ nav ul li a {
   background-color: var(--light-color);
   padding: 1.5rem;
   border-radius: 15px;
-  box-shadow: 0 4px 6px #c9a26c);
-  transition: transform 0.2s, box-shadow 0.2s;
-  width: 25%;
+  box-shadow: 0 4px 6px #c9a26c;
 }
 
 .feature:hover {
